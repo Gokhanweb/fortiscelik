@@ -3,36 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fortis Çelik Yapı ve Prefabrik</title>
+    <link rel="icon" href="logo.png" type="image/png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css" integrity="sha512-Z/def5z5u2aR89OuzYcxmDJ0Bnd5V1cKqBEbvLOiUNWdg9PQeXVvXLI90SE4QOHGlfLqUnDNVAYyZi8UwUTmWQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://unpkg.com/swiper@6.7.0/swiper-bundle.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
+    <style>
+      .swiper-custom {
+        width: 100%; /* Slider'ın genişliğini ayarlayabilirsiniz */
+        margin: 0 auto; /* Orta hizalama */
+        overflow: hidden; /* İçeriği gizle */
+        height: 500px;
+      }
+      .swiper-slide {
+        width: 100%;
+      }
+    </style>
 </head>
 <body>
     <header>
         <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-md-2">
-                    <img width="112" height="41" src="https://demo.bravisthemes.com/mrittik/wp-content/uploads/2023/03/logo-light.png" alt="">
-                </div>
-                <div class="col-md-6">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-5">
                     <ul>
-                        <li>Anasayfa</li>
-                        <li>Modeller</li>
-                        <li>Malzeme Detay</li>
-                        <li>İletişim</li>
+                        <li><a href="#">Anasayfa</a></li>
+                        <li><a href="#about-area">Hakkımızda</a></li>
+                        <li><a href="#features-area">Oda Modelleri</a></li>
                     </ul>
                 </div>
                 <div class="col-md-2">
-                    <ul>
-                        <li><i class="fa-solid fa-bars"></i></li>
-                        <li><i class="fa-solid fa-magnifying-glass"></i></li>
-                    </ul>
+                  <a href="#">
+                    <img class="w-100" src="logo.png" alt="">
+                  </a>
+                </div>
+                <div class="col-md-5">
+                  <ul>
+                    <li><a href="#product-area">Malzeme Detayları</a></li>
+                    <li><a href="#gallery-area">Çalışmalarımız</a></li>
+                    <li><a href="#footer">İletişim</a></li>
+                  </ul>
                 </div>
             </div>
         </div>
@@ -44,14 +62,14 @@
                       <div class="swiper-wrapper">
                           <div class="upk-salf-item swiper-slide">
                               <div class="upk-salf-image-wrap">
-                                  <img class="upk-xanc-img" src="https://foyr.com/learn/wp-content/uploads/2022/06/guide-and-tips-to-prefabricated-homes-scaled.jpg" />
+                                  <img class="upk-xanc-img" src="images/slider1.webp" />
                               </div>
                               <div class="upk-salf-content-wrap">
                                   <h3 class="upk-salf-title" data-swiper-parallax-y="-150" data-swiper-parallax-duration="1200">
-                                    California young menz club in the city center
+                                    Fortis Çelik Yapı ve Prefabrik Kalitesi
                                   </h3>
                                   <div class="upk-salf-button" data-swiper-parallax-y="-300" data-swiper-parallax-duration="1500">
-                                      <a class="link link--arrowed" href="#">read more
+                                      <a class="link link--arrowed" href="tel:0555 485 04 06">Tıkla Ara
                                           <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32">
                                               <g fill="none" stroke="#ff215a" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
                                               <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
@@ -65,15 +83,15 @@
           
                           <div class="upk-salf-item swiper-slide">
                               <div class="upk-salf-image-wrap">
-                                  <img class="upk-xanc-img" src="https://www.bfp.vc/wp-content/uploads/2018/08/0-EidTKRlol3FNuM1r.jpg" />
+                                  <img class="upk-xanc-img" src="images/slider2.jpg" />
                               </div>
                               <div class="upk-salf-content-wrap">
                                   <h3 class="upk-salf-title" data-swiper-parallax-y="-150" data-swiper-parallax-duration="1200">
-                                    California young menz club in the city center
+                                    Modern ve Prefabrik Çözümler
                                   </h3>
           
                                       <div class="upk-salf-button" data-swiper-parallax-y="-300" data-swiper-parallax-duration="1500">
-                                      <a class="link link--arrowed" href="#">read more
+                                      <a class="link link--arrowed" href="tel:0555 485 04 06">Tıkla Ara
                                           <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32">
                                               <g fill="none" stroke="#ff215a" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
                                               <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
@@ -84,40 +102,19 @@
                                   </div>
                               </div>
                           </div>
-          
-                          <div class="upk-salf-item swiper-slide">
-                              <div class="upk-salf-image-wrap">
-                                  <img class="upk-xanc-img" src="https://images.squarespace-cdn.com/content/v1/6134694f8fadf32ab087b511/1630825640461-7YLGY465HNXVC3ROX3OS/Hero+%282%29.jpg?format=2500w" />
-                              </div>
-                              <div class="upk-salf-content-wrap">
-                                  <h3 class="upk-salf-title" data-swiper-parallax-y="-150" data-swiper-parallax-duration="1200">
-                                    California young menz club in the city center
-                                  </h3>
-          
-                                      <div class="upk-salf-button" data-swiper-parallax-y="-300" data-swiper-parallax-duration="1500">
-                                      <a class="link link--arrowed" href="#">read more
-                                          <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32">
-                                              <g fill="none" stroke="#ff215a" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
-                                              <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
-                                              <path class="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
-                                              </g>
-                                          </svg>
-                                      </a>
-                                  </div>
-                              </div>
-                          </div>
+        
                         
                           <div class="upk-salf-item swiper-slide">
                               <div class="upk-salf-image-wrap">
-                                  <img class="upk-xanc-img" src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-53371485-1545412878.jpg" />
+                                  <img class="upk-xanc-img" src="images/slider3.webp" />
                               </div>
                               <div class="upk-salf-content-wrap">
                                   <h3 class="upk-salf-title" data-swiper-parallax-y="-150" data-swiper-parallax-duration="1200">
-                                      we help you make modern interior
+                                    Fortis Prefabrik ile Konforlu Yaşam
                                   </h3>
           
                                       <div class="upk-salf-button" data-swiper-parallax-y="-300" data-swiper-parallax-duration="1500">
-                                      <a class="link link--arrowed" href="#">read more
+                                      <a class="link link--arrowed" href="tel:0555 485 04 06">Tıkla Ara
                                           <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32">
                                               <g fill="none" stroke="#ff215a" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
                                               <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
@@ -161,7 +158,7 @@
                   </div>
               </div>
     </section>
-
+    <!--
     <section id="boards-area">
       <h2 class="text-center mb-5">Neden Fortis?</h2>
         <div class="container">
@@ -184,7 +181,7 @@
             </div>
         </div>
     </section>
-
+    -->
     <section id="about-area">
         <div class="container">
             <div class="row">
@@ -196,9 +193,10 @@
                 </div>
                 <div class="col-md-6">
                     <div class="about-info">
-                        <h2 class="text-uppercase mb-4">Fortis Çelik Yapı ve Prefabrik</h2>
+                        <h6 class="text-start">Hakkımızda</h6>
+                        <h2 class="mb-4 text-start">Fortis Çelik Yapı ve Prefabrik</h2>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore earum, consequuntur eos unde vero doloremque quia quasi amet tempora. Amet, odit soluta praesentium et assumenda perspiciatis saepe iure error! Quas reprehenderit ipsum impedit unde totam, cumque dignissimos sapiente molestias doloribus quos reiciendis quia vero sequi asperiores porro? Perspiciatis, perferendis officia.
+                          Yeni kurulmuş bir şirket olmamıza rağmen vizyoner bakış açımız ve alanında uzman personeller ile projelerimize başlayıp tamamlamış bulunmaktayız. Logomuzun altın çemberinin anlamı olan <b>"Temelden Çatıya Altın Standartlarla"</b> projelerimize yansıtmak temel amacımızdır.
                         </p>
                     </div>
                 </div>
@@ -206,63 +204,504 @@
         </div>
     </section>
 
-    <section id="product-area">
+    <section id="features-area">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h2 class="text-center">Malzeme Detayları</h2>
+            <h6>Neler Öneriyoruz</h6>
+            <h2>Oda Modelleri</h2>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="feature-types">
+            <ul class="d-flex p-0">
+              <li class="me-5"><a href="javascript:void(0)" id="ev1" class="ev-filter active">Ev 1</a></li>
+              <li class="me-5"><a href="javascript:void(0)" id="ev2" class="ev-filter">Ev 2</a></li>
+              <li class="me-5"><a href="javascript:void(0)" id="ev3" class="ev-filter">Ev 3</a></li>
+            </ul>
+            <hr>
+          </div>
+        </div>
+        <div class="row d-flex align-items-center ev ev1">
+          <div class="col-md-6">
+            <p class="features-text pe-4 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem minus provident ex qui, obcaecati ab temporibus quod fugit error quas.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem minus provident ex qui, obcaecati ab temporibus quod fugit error quas.</p>
+            <div class="features d-flex justify-content-between pe-4">
+              <div class="feature-left">
+                <div class="p-0">
+                  <div class="feature d-flex justify-content-between">
+                    <span>Odalar:</span>
+                    <span>2+1</span>
+                  </div>
+                  <div class="feature d-flex justify-content-between">
+                    <span>Metrekare:</span>
+                    <span>120</span>
+                  </div>
+                  <div class="feature d-flex justify-content-between">
+                    <span>Kat Sayısı:</span>
+                    <span>1</span>
+                  </div>
+                </div>
+              </div>
+              <div class="feature-right">
+                <div class="p-0">
+                  <div class="feature d-flex justify-content-between">
+                    <span>Park Alanı:</span>
+                    <span>Var</span>
+                  </div>
+                  <div class="feature d-flex justify-content-between">
+                    <span>Alan Metrekaresi:</span>
+                    <span>70</span>
+                  </div>
+                  <div class="feature d-flex justify-content-between">
+                    <span>Fiyat:</span>
+                    <span>2000000</span>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <button>Tıkla Ara</button>
           </div>
           <div class="col-md-6">
-            <div class="product-card">	
-              <div class="product-details">
-                <h3>Dış Duvar</h3>
-                <p class="information mt-4">Dış duvarlar, bir binanın dış yüzeyini oluşturan ve onu çevresel etkenlerden koruyan temel yapı elemanlarıdır. Bu duvarlar, sıcaklık değişikliklerine, yağışa, rüzgara ve diğer doğal etkilere karşı bir bariyer görevi görür. </p>
-              </div>   
-              <div class="product-image">
-                <img src="https://m.media-amazon.com/images/I/71hK0mWItYL._AC_UF1000,1000_QL80_.jpg" alt="Omar Dsoky">
-                <div class="info">
-                  <h3>Özellikleri</h3>
-                  <ul>
-                    <li><strong>Malzeme Türü: </strong>Tuğla</li>
-                    <li><strong>Duvar Kalınlığı: </strong>20mm</li>
-                    <li><strong>Boyutlar: </strong>300x300</li>
-                    <li><strong>Renk: </strong>Beyaz</li>
-                    <li><strong>Yalıtım Malzemesi: </strong>polistiren</li>
-                  </ul>
-                </div>
-              </div>              
+            <div class="feature-img"  width="650" height="515">
+              <img src="ev1-cizim.jpg" data-src="ev1.jpg" alt="" width="650" height="515">
             </div>
           </div>
+        </div>
+        <div class="row d-flex align-items-center ev ev2 d-none">
           <div class="col-md-6">
-            <div class="product-card">	
-              <div class="product-details">
-                <h3>Trapez Sac</h3>
-                <p class="information mt-4">Trapez sac, inşaat ve endüstriyel sektörlerde sıkça kullanılan bir yapı malzemesidir. Genellikle çelik veya alüminyumdan üretilir ve dış etkenlere dayanıklı bir yapıya sahiptir. Trapez sac, özellikle çatı kaplamaları ve dış </p>
-              </div>   
-              <div class="product-image">
-                <img src="https://www.canerlerprofil.com/wp-content/uploads/2018/06/trapez-sac.jpg" alt="Omar Dsoky">
-                <div class="info">
-                  <h3>Özellikleri</h3>
-                  <ul>
-                    <li><strong>Malzeme Türü: </strong>Çelik</li>
-                    <li><strong>Kalınlık: </strong>20mm</li>
-                    <li><strong>Dalga Tipi: </strong>Trapezoidal</li>
-                    <li><strong>Uzunluk: </strong>1m</li>
-                    <li><strong>Renk: </strong>Gri</li>
-                  </ul>
+            <p class="features-text pe-4 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem minus provident ex qui, obcaecati ab temporibus quod fugit error quas.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem minus provident ex qui, obcaecati ab temporibus quod fugit error quas.</p>
+            <div class="features d-flex justify-content-between pe-4">
+              <div class="feature-left">
+                <div class="p-0">
+                  <div class="feature d-flex justify-content-between">
+                    <span>Odalar:</span>
+                    <span>2+1</span>
+                  </div>
+                  <div class="feature d-flex justify-content-between">
+                    <span>Metrekare:</span>
+                    <span>100</span>
+                  </div>
+                  <div class="feature d-flex justify-content-between">
+                    <span>Kat Sayısı:</span>
+                    <span>1</span>
+                  </div>
                 </div>
-              </div>              
+              </div>
+              <div class="feature-right">
+                <div class="p-0">
+                  <div class="feature d-flex justify-content-between">
+                    <span>Park Alanı:</span>
+                    <span>Var</span>
+                  </div>
+                  <div class="feature d-flex justify-content-between">
+                    <span>Alan Metrekaresi:</span>
+                    <span>60</span>
+                  </div>
+                  <div class="feature d-flex justify-content-between">
+                    <span>Fiyat:</span>
+                    <span>1500000</span>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <button>Tıkla Ara</button>
+          </div>
+          <div class="col-md-6">
+            <div class="feature-img"  width="650" height="515">
+              <img src="images/ev2-cizim.jpg" data-src="images/ev2.jpg" alt="" width="650" height="515">
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex align-items-center ev ev3 d-none">
+          <div class="col-md-6">
+            <p class="features-text pe-4 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem minus provident ex qui, obcaecati ab temporibus quod fugit error quas.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem minus provident ex qui, obcaecati ab temporibus quod fugit error quas.</p>
+            <div class="features d-flex justify-content-between pe-4">
+              <div class="feature-left">
+                <div class="p-0">
+                  <div class="feature d-flex justify-content-between">
+                    <span>Odalar:</span>
+                    <span>2+1</span>
+                  </div>
+                  <div class="feature d-flex justify-content-between">
+                    <span>Metrekare:</span>
+                    <span>150</span>
+                  </div>
+                  <div class="feature d-flex justify-content-between">
+                    <span>Kat Sayısı:</span>
+                    <span>1</span>
+                  </div>
+                </div>
+              </div>
+              <div class="feature-right">
+                <div class="p-0">
+                  <div class="feature d-flex justify-content-between">
+                    <span>Park Alanı:</span>
+                    <span>Var</span>
+                  </div>
+                  <div class="feature d-flex justify-content-between">
+                    <span>Alan Metrekaresi:</span>
+                    <span>80</span>
+                  </div>
+                  <div class="feature d-flex justify-content-between">
+                    <span>Fiyat:</span>
+                    <span>3000000</span>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <button>Tıkla Ara</button>
+          </div>
+          <div class="col-md-6">
+            <div class="feature-img"  width="650" height="515">
+              <img src="images/ev3-cizim.jpg" alt="" width="650" height="515">
             </div>
           </div>
         </div>
       </div>
     </section>
-    <footer>
+
+
+    <section id="product-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h6>Malzeme</h6>
+            <h2>Malzeme Detayları</h2>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="swiper-custom">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="urun-card">
+                    <div class="flipper-container">
+                      <div class="flip">
+                        <div class="front face text-center">
+                          <img src="http://www.dalsan.com.tr/CmsFiles/Products/90/boardex.png" height="400px">
+                          <h5>Bordex Levha</h5>
+                        </div>
+                        <div class="back face">
+                          <h5>Özellikleri</h5>
+                          <ul>
+                            <li>DUVAR KALINLIĞI : 12.5 MM </li>
+                            <li>BOYUTLAR : 120x240 </li>
+                            <li>RENK : TURUNCU ORGİNAL BORDEX</li>
+                            <li>YALITIM MALZEMESİ: CAM ELYAF ŞİLTE KAPLAMALI</li>
+                            <p>BORDEX UZUN YILLAR AR-GE ÇALIŞMALARINDAN SONRA AMERİKADAN SONRA TÜRKİYE VE AVRUPA PAZARINA SUNULAN İLK DIŞ CEPHE LEVHASIDIR.
+                              SUYADAYANIKLI,NEME DAYANIKLI,KÜFLENME YAPMAZ VE YANGIN YÖNETMELİĞİNE UYGUN OLMASI SEBEBİYLE İNŞAAT SEKTÖRÜNÜN HER ALANINDA TERCİH EDİLMEKTEDİR.
+                              SAĞLIĞA ZARARLI HİÇ BİR MADDE İÇERMEZ. BORDEX NEM BARİYER ÖZELLİĞİ OLAN BİR ÜRÜNDÜR.</p>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>         
+                </div>
+                <div class="swiper-slide">
+                  <div class="urun-card">
+                    <div class="flipper-container">
+                      <div class="flip">
+                        <div class="front face text-center">
+                          <img src="https://www.yapikatalogu.com/Files/Products/26130/26130.jpg" height="400px">
+                          <h5>BETOPAN LEVHA</h5>
+                        </div>
+                        <div class="back face">
+                          <h5>Özellikleri</h5>
+                          <ul>
+                            <li>DUVAR KALINLIĞI: 8MM,10MM,12MM,14MM,16MM,18MM</li>
+                            <li>BOYUTLAR: 125X250  </li>
+                            <li>RENK : GRİ</li>
+                            <li>YALITIM MALZEMESİ: BETON VE AHŞAP KARIŞIMI SERT DÜZ PÜRÜZSÜZ LEVHADIR.</li>
+                            <p>BETOPAN YANGIN YÖNETMELİĞİNE UYGUN DEĞİLDİR. SAĞLIĞA ZARARLI HİÇ BİR MADDE İÇERMEMEKTEDİR. KÜFLENME YAPMAZ. BETOPAN SUYU EMEN BİR ÜRÜNDÜR.</p>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>         
+                </div>
+                <div class="swiper-slide">
+                  <div class="urun-card">
+                    <div class="flipper-container">
+                      <div class="flip">
+                        <div class="front face text-center">
+                          <img src="https://www.ottostone.com/wp-content/uploads/2017/01/Pinar-Han-Bebek-01.jpg" height="400px">
+                          <h5>İÇ DUVARLAR</h5>
+                        </div>
+                        <div class="back face">
+                          <h5>Özellikleri</h5>
+                          <ul>
+                            <li>MALZEME TÜRÜ: ALÇIPAN </li>
+                            <li>DUVAR KALINLIĞI : 12.5 MM  </li>
+                            <li>BOYUTLAR : 120X250</li>
+                            <li>RENK : BEYAZ/YEŞİL</li>
+                            <li>YALITIM MALZEMESİ: İKİ YÜZEYİ KARTON KAPLAMA, ARASINDA TOZ ALÇI BULUNMAKDADIR. NEME DAYANIKLI OLANLARIDA BULUNMAKTADIR VE BU ÜRÜNLER GENELDE YEŞİL ALÇIPANLAR OLUP BANYO GİBİ ISLAK VE NEMLİ ALANLAR İÇİN TERCİH EDİLİR.</li>
+                            <p>ALÇIPANLARIN PH DEĞERİ İNSAN VÜCUDUNA DAYANIKLIDIR. HAFİF VE ESNEK BİR YAPIDADIR. SES YALITIMI SAĞLAR. ANTİ BAKTERİYEL BİR ÜRÜNDÜR. GENELDE ARA BÖLME DUVARLARDA TERCİH EDİLMEKTEDİR.</p>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>         
+                </div>
+                <div class="swiper-slide">
+                  <div class="urun-card">
+                    <div class="flipper-container">
+                      <div class="flip">
+                        <div class="front face text-center">
+                          <img src="https://www.izocam.com.tr/images/product/main-image/mineral-partition-wall-board-r-49353.jpg" height="400px">
+                          <h5>ARA BÖLME YALITIM</h5>
+                        </div>
+                        <div class="back face">
+                          <h5>Özellikleri</h5>
+                          <ul>
+                            <li>MALZEME TÜRÜ: CAM YÜNÜ </li>
+                            <li>BOYUTLAR:1.2 MT GENİŞLİK X 8 MT UZUNLUK İLE 9.6 M2 ALAN KAPLAR.  </li>
+                            <li>RENK: SİYAH</li>
+                            <li>UYGULAMA ALANI: ARA BÖLMELERDE ISI YALITIMI OLARAK KULLANILMAKTADIR.Akustik düzenleme sağlar. Sıcak ve rutubetten etkilenmez. Zamanla bozulmaz, çürümez, küf tutmaz, korozyon ya da paslanma yapmaz, böcekler tarafından tahrip edilemez bir malzemedir.</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>         
+                </div>
+                <div class="swiper-slide">
+                  <div class="urun-card">
+                    <div class="flipper-container">
+                      <div class="flip">
+                        <div class="front face text-center">
+                          <img src="https://m.media-amazon.com/images/I/51OaF-lW8JL._AC_UF1000,1000_QL80_.jpg" height="400px">
+                          <h5>KÖPÜK BLOK</h5>
+                        </div>
+                        <div class="back face">
+                          <h5>Özellikleri</h5>
+                          <ul>
+                            <li>BOYUTLAR:1000X2500X3000 </li>
+                            <li>RENK GRİ,BEYAZ </li>
+                            <li>YALITIM MALZEMESİ: Polietilen köpük ses ve ısı yalıtım levhası olarak da kullanılıyor. Boru ve vana yalıtımı, duvar yalıtımı, çatı yalıtımı, ses yalıtımı, ısı yalıtımı gibi kullanım alanları mevcut. Özellikle ısıyı istenilen tarafta tutarak, dışardan soğuk ve ses gelmesini önlemektedir.</li>
+                            <li>UYGULAMA ALANLARI : ÇATI YALITIMI, İÇ DUVAR ARA BÖLMELERİ VE ZEMİN.</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>         
+                </div>
+                <div class="swiper-slide">
+                  <div class="urun-card">
+                    <div class="flipper-container">
+                      <div class="flip">
+                        <div class="front face text-center">
+                          <img src="https://akvarsan.com.tr/wp-content/uploads/2021/03/New-Project-27.png" height="400px">
+                          <h5>SANDVİC PANEL</h5>
+                        </div>
+                        <div class="back face">
+                          <h5>Özellikleri</h5>
+                          <ul>
+                            <li>Malzeme Türü: GALVANİZ OLUKLU MİNAREL YÜN YALITIMINDA </li>
+                            <li>Kalınlık: 3.5-10CM BOY 100 CM </li>
+                            <li>Dalga Tipi: Trapezoidal</li>
+                            <li>Uzunluk: 12 MT ÜRETİLEBİLİR</li>
+                            <li>Renk: BEYAZ/KIRMIZI/ANTRASİD</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>         
+                </div>
+                <div class="swiper-slide">
+                  <div class="urun-card">
+                    <div class="flipper-container">
+                      <div class="flip">
+                        <div class="front face text-center">
+                          <img src="https://yapipanmetal.com/yp_content/uploads/2022/08/boyali-kutu-profil-1.webp" height="400px">
+                          <h5>BOYALI PROFİL</h5>
+                        </div>
+                        <div class="back face">
+                          <h5>Özellikleri</h5>
+                          <ul>
+                            <li>Malzeme Türü: Çelik </li>
+                            <li>Kalınlık: 1.5 MM/2 MM </li>
+                            <li>Uzunluk: 6 M STANDART</li>
+                            <li>Renk: KIRMIZI</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>         
+                </div>
+                <div class="swiper-slide">
+                  <div class="urun-card">
+                    <div class="flipper-container">
+                      <div class="flip">
+                        <div class="front face text-center">
+                          <img src="http://www.haskarprofil.com/img/haskar-zed-profil-5882.jpg" height="400px">
+                          <h5>Hafif Çelik Yapı Profil</h5>
+                        </div>
+                        <div class="back face">
+                          <h5>Özellikleri</h5>
+                          <ul>
+                            <li>Malzeme Türü: Çelik </li>
+                            <li>Kalınlık: 1.5 MM/2 MM </li>
+                            <li>Uzunluk: 6 M STANDART</li>
+                            <li>Renk: GRİ</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>         
+                </div>
+                <div class="swiper-slide">
+                  <div class="urun-card">
+                    <div class="flipper-container">
+                      <div class="flip">
+                        <div class="front face text-center">
+                          <img src="https://discephesistemi.com/wp-content/uploads/2022/03/Esenyurt-PVC-Dograma--scaled.jpg" height="400px">
+                          <h5>PVC DOĞRAMA</h5>
+                        </div>
+                        <div class="back face">
+                          <h5>Özellikleri</h5>
+                          <ul>
+                            <li>BOYUTLAR:KİŞİYE VE PROJEYE ÖZEL ÖLÇÜ,RENK TERCİHLERİ </li>
+                            <li>YALITIM: CİFT CAM ISI VE SES YALITIMLI MARKALAR TERCİHİMİZDİR. </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>         
+                </div>
+                <div class="swiper-slide">
+                  <div class="urun-card">
+                    <div class="flipper-container">
+                      <div class="flip">
+                        <div class="front face text-center">
+                          <img src="https://evekapi.com.tr/public/uploads/urun/863980_380322_3e016fa6633a7d27ced5.png" height="400px">
+                          <h5>İÇ KAPILAR</h5>
+                        </div>
+                        <div class="back face">
+                          <h5>Özellikleri</h5>
+                          <ul>
+                            <li>AMERİKAN PANEL KAPILAR </li>
+                            <li>PROJE VE KİŞİYE ÖZEL RENK, MODEL TERCİHLERİ </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>         
+                </div>
+                <div class="swiper-slide">
+                  <div class="urun-card">
+                    <div class="flipper-container">
+                      <div class="flip">
+                        <div class="front face text-center">
+                          <img src="https://cdn03.ciceksepeti.com/cicek/kcm50109547-1/XL/celik-kapi-fiyatlari-ahsap-desenli-apartman-girisi-celik-kapi-dis-mekan-apartman-kapisi-tez0163-kcm50109547-1-ec6ba6bccf7542eb967326be888f8411.jpg" height="400px">
+                          <h5>DIŞ KAPI</h5>
+                        </div>
+                        <div class="back face">
+                          <h5>Özellikleri</h5>
+                          <ul>
+                            <li>ÇELİK KAPI İSTEĞE VE PROJEYE UYGUN MARKALI ÜRÜNLER TERCİH EDİLMEKTEDİR. </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>         
+                </div>
+                <div class="swiper-slide">
+                  <div class="urun-card">
+                    <div class="flipper-container">
+                      <div class="flip">
+                        <div class="front face text-center">
+                          <img src="https://cdn.armut.com/images/services/00018-dis-cephe-boyama.jpg" height="400px">
+                          <h5>İÇ VE DIŞ CEPHE BOYA</h5>
+                        </div>
+                        <div class="back face">
+                          <h5>Özellikleri</h5>
+                          <ul>
+                            <li>PROJE VE KİŞİYE ÖZEL RENK TERCİHLKERİ İLE 1.SINIF MARKA BOYA KULLANILMAKTADIR. </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>         
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <section id="gallery-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h6>Galeri</h6>
+            <h2>Çalışmalarımız</h2>
+          </div>
+          <div class="col-md-4 mb-4 mt-4">
+            <a href="/images/img1.jpg" data-fancybox="gallery">
+              <img src="/images/img1.jpg" alt="" class="w-100" width = "415" height="245">
+            </a>
+          </div>
+          <div class="col-md-4 mb-4 mt-4">
+            <a href="/images/img2.jpg" data-fancybox="gallery">
+              <img src="/images/img2.jpg" alt="" class="w-100" width = "415" height="245">
+            </a>
+          </div>
+          <div class="col-md-4 mb-4 mt-4">
+            <a href="/images/img3.jpg" data-fancybox="gallery">
+              <img src="/images/img3.jpg" alt="" class="w-100" width = "415" height="245">
+            </a>
+          </div>
+          <div class="col-md-4 mb-4">
+            <a href="/images/img4.jpg" data-fancybox="gallery">
+              <img src="/images/img4.jpg" alt="" class="w-100" width = "415" height="245">
+            </a>
+          </div>
+          <div class="col-md-4 mb-4">
+            <a href="/images/img5.jpg" data-fancybox="gallery">
+              <img src="/images/img5.jpg" alt="" class="w-100" width = "415" height="245">
+            </a>
+          </div>
+          <div class="col-md-4 mb-4">
+            <a href="/images/img6.jpg" data-fancybox="gallery">
+              <img src="/images/img6.jpg" alt="" class="w-100" width = "415" height="245">
+            </a>
+          </div>
+          <div class="col-md-4 mb-4">
+            <a href="/images/img7.jpg" data-fancybox="gallery">
+              <img src="/images/img7.jpg" alt="" class="w-100" width = "415" height="245">
+            </a>
+          </div>
+          <div class="col-md-4 mb-4">
+            <a href="/images/img8.jpg" data-fancybox="gallery">
+              <img src="/images/img8.jpg" alt="" class="w-100" width = "415" height="245">
+            </a>
+          </div>
+          <div class="col-md-4 mb-4">
+            <a href="/images/img9.jpg" data-fancybox="gallery">
+              <img src="/images/img9.jpg" alt="" class="w-100" width = "415" height="245">
+            </a>
+          </div>
+          <div class="col-md-4 mb-4">
+            <a href="/images/img10.jpg" data-fancybox="gallery">
+              <img src="/images/img10.jpg" alt="" class="w-100" width = "415" height="245">
+            </a>
+          </div>
+          <div class="col-md-4 mb-4">
+            <a href="/images/img11.jpg" data-fancybox="gallery">
+              <img src="/images/img11.jpg" alt="" class="w-100" width = "415" height="245">
+            </a>
+          </div>
+          <div class="col-md-4 mb-4">
+            <a href="/images/img12.jpg" data-fancybox="gallery">
+              <img src="/images/img12.jpg" alt="" class="w-100" width = "415" height="245">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
       <div class="container">
         <div class="row justify-content-between footer-bg">
           <div class="col-md-3">
-            <img src="https://mrittik-reactjs.web.app/images/logo-light.svg" alt="" width="112" height="41">
-            <li class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <h6>Fortis Çelik Yapı ve Prefabrik</h6>
+            <li class="mt-4">Güvenli ve konforlu bir yaşam alanı</li>
             <ul class="d-flex mt-3">
               <li class="me-3"><i class="fa-brands fa-facebook"></i></li>
               <li class="me-3"><i class="fa-brands fa-youtube"></i></li>
@@ -273,19 +712,18 @@
           <div class="col-md-3">
             <h6>İletişim Bilgileri</h6>
             <ul class="mt-4">
-              <li>info@fortiscelikprefabrik.com</li>
-              <li>0555 555 5555</li>
-              <li>0232 555 5555</li>
-              <li>Konum</li>
+              <li><a href="mailto:info@fortiscelikprefabrik.com">info@fortiscelikprefabrik.com</a></li>
+              <li><a href="tel:0555 485 04 06">0555 485 04 06</a></li>
+              <li>İzmir</li>
             </ul>
           </div>
           <div class="col-md-3">
             <h6>Hızlı Erişim</h6>
             <ul class="mt-4">
-              <li>Anasayfa</li>
-              <li>Modeller</li>
-              <li>Malzeme Detay</li>
-              <li>İletişim</li>
+              <li><a href="#about-area">Hakkımızda</a></li>
+              <li><a href="#features-area">Oda Modelleri</a></li>
+              <li><a href="#product-area">Malzeme Detayları</a></li>
+              <li><a href="#gallery-area">Çalışmalarımız</a></li>
             </ul>
           </div>
           <div class="col-md-12">
@@ -296,8 +734,69 @@
         </div>
       </div>
     </footer>
+    <div id="cursor">
+      <div class="cursor--inner"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.min.js" integrity="sha512-fHY2UiQlipUq0dEabSM4s+phmn+bcxSYzXP4vAXItBvBHU7zAM/mkhCZjtBEIJexhOMzZbgFlPLuErlJF2b+0g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.0/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
+    <script>
+      var mySwiper = new Swiper('.swiper-custom', {
+          slidesPerView: 3,
+          spaceBetween: 30,
+
+          navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+          },
+          loop: true// Sonsuz döngü
+
+      });
+  
+
+  </script>
+
+  <script>
+    const images = document.querySelectorAll("img[data-src]");
+
+    images.forEach((img) => {
+      const dataSrc = img.getAttribute("data-src");
+      const imgSrc = img.getAttribute("src");
+
+      img.addEventListener("mouseover", function () {
+        img.style.transition = "opacity 2s ease-in-out";
+        img.style.opacity = 0;
+
+        setTimeout(function () {
+          img.src = dataSrc;
+          img.style.opacity = 1;
+        }, 2000);
+      });
+
+      img.addEventListener("mouseout", function () {
+        img.style.transition = "opacity 2s ease-in-out";
+        img.style.opacity = 0;
+
+        setTimeout(function () {
+          img.src = imgSrc;
+          img.style.opacity = 1;
+        }, 2000);
+      });
+    });
+  </script>
+  <script>
+$('.ev-filter').click(function() {
+  var id = $(this).attr('id'); 
+
+  $('.ev-filter').removeClass('active');
+  $(this).addClass('active');
+
+  $('.ev').addClass('d-none');
+  $('.' + id).removeClass('d-none').addClass('animate__animated animate__fadeInUp');
+});
+
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>
